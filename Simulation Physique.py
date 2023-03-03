@@ -1,6 +1,7 @@
+import time
 import matplotlib.pyplot as plt
 import numpy as np
-import time
+#hi
 
 def euler(x=0, y=0, Vx=0, Vy=0, tmax=3600, delta=0.1, BdF=lambda: 0) -> None:
     """
